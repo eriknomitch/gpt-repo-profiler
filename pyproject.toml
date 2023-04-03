@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt-repo-profiler"
+version = "0.1.0"
+description = "A semi-automated codebase inspector to output a formatted context profile for ChatGPT, etc."
+authors = ["Erik Nomitch <enomitch@gmail.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+packages = [{include = "gpt_repo_profiler"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygit2 = "^1.12.0"
+linguist = "^0.1.1"
+requirements-parser = "^0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
