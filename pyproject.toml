@@ -8,6 +8,7 @@ packages = [{include = "gpt_repo_profiler"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pygit2 = "^1.12.0"
 
 
 [build-system]
